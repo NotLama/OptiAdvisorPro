@@ -1,0 +1,195 @@
+html {
+    font-size:16px;
+    color: black;
+    font-family: Oswald;
+}
+
+
+
+.headerContainer{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    height: 4rem;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    background-color: rgba(68,85,95,255);
+    margin-top: -0.9375rem;
+}
+
+header img {
+    height: 4rem;
+    margin-left: auto;
+    border: none;
+}
+
+nav{
+    text-align: center;
+}
+
+nav span a{
+    margin-right: 2rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+#startSpan {
+    margin-left: 2rem;
+}
+
+#spanNamn {
+    margin-left: 50rem;
+    text-decoration: none;
+}
+
+.vilkaÄrVi{
+    display: flex;
+}
+
+.backgroundImage{
+    width: 100%;
+    height: 50rem;
+    background-image: url("Images/techbackground.JPG");
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#textBackground{
+    width: 100%;
+    background-color: rgba(68,85,95,255);
+    height: 6.25rem;
+}
+
+#textBackground h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 0;
+}
+
+#textBackground p {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 0;
+    color: white;
+}
+
+.portfölj{
+    display: flex;
+}
+
+.portföljProdukter {
+    width: 100%;
+    height: 9.375rem;
+    background-color: rgba(68,85,95,255);
+}
+
+.portföljProdukter h2{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 0;
+}
+
+.portföljProdukter p{
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1;
+    color: white;
+}
+
+.portföljTjänster {
+    height: 18.75rem;
+    width: 100%;
+    background-color: rgba(68,85,95,255);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.portföljTjänster img {
+    height: 12.5rem;
+}
+
+#tjänster{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+#tjänster span {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.Laget {
+    margin-top: 18.3125rem;
+    width: 100%;
+    height: 31.25rem;
+    background-color: rgba(68,85,95,255);
+}
+
+#lagetHead {
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+        line-height: 0;
+        line-height: 10rem;
+        margin-bottom: 0;
+}
+
+#backgrundLaget{
+    width: 100%;
+    height: 31.25rem;
+    background-image: url("Images/Techonlogybackground.JPG");
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+#flex-box3{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#flex-box3 h4 {
+    font-size: 3rem;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+#flex-box3 img{
+    margin-top: 4rem;
+    height: 18.75rem;
+    width: 18.75rem;
+    border: solid 2px black;
+}
+
+footer{
+    height:18.75rem;
+    width: 100%;
+    background-color: rgba(68,85,95,255);
+    margin-top: 10rem;
+}
+
+footer h4{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+footer nav{
+    color: white;
+    line-height: 3rem;
+    font-size: 2rem;
+}
